@@ -7,8 +7,8 @@ if block_given?
     i = 0 
    
   while i < empty_array.length 
-    yield(empty_array[i]
-    
+    yield empty_array[i]
+    new_array << empty_array[i]
     i += 1
   end
 else
