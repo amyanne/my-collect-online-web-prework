@@ -2,10 +2,8 @@ require 'pry'
 
 def my_collect(empty_array)
 
-  name_array = []
-  i = 0
-  if empty_array.include?(" ") && empty_array.length > 0
-  binding.pry
+if block_given?
+    i = 0 
   while i = empty_array.length 
     yield empty_array[i]
     i += 1
