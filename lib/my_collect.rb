@@ -9,6 +9,7 @@ if block_given?
   while i = empty_array.length 
     yield new_array[i]
     i += 1
+  end
 else
   nil
 end
