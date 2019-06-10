@@ -6,7 +6,7 @@ def my_collect(empty_array)
 if block_given?
     i = 0 
    
-  while i = empty_array.length 
+  while i < empty_array.length 
     yield new_array[i]
     i += 1
   end
